@@ -10,5 +10,8 @@ app.get('/6bcse.html', function(req, res) {
 app.get('/6bise.html', function(req, res) {
     res.sendFile(__dirname+'/6bise.html');
 });
+app.get('/6bece.html', function(req, res) {
+    res.sendFile(__dirname+'/6bese.html');
+});
 
 app.listen(3000);
